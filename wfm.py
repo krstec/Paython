@@ -75,7 +75,7 @@ print(type(l4))'''
 
     
 '''
-l5 = input('Enter a list:- ').split()
+'''l5 = input('Enter a list:- ').split()
 print(l5)
 a=input('Enter the one list:-')
 l5.append(a)
@@ -89,11 +89,84 @@ l5.remove(c)
 print(l5)
 l5.sort()
 print(l5)
+'''
+'''#18/01/2022
+#program to find the length of list
+l= input ('Enter the list value of a list: ').split()
+print(len(l))
+print('the length of user define list is :',len(l))
+#program to reverse the list using index values
+#print ('the reverse of list is :-', [::-1])
+'''
+#l= input ('Enter the list value of a list: ').split()
+
+
+#program to print the element of list using +ve and index values
+'''l1 = [1,2,3,[1,2,3,4,[5,7,8,9,1,[1, 5, 8]]]]
+print(l1)
+print(' the 5th element of list is:-',l1)
+print(' the 5th element of list is:-',l1[4])
+'''
+#19/01/2022
+
+#Session 10
+#control structure
+
+#conditinol Statement
+#if statement 
+''' syntax:-
+            if condition :
+            if(condition):
+                body'''
+from sys import int_info
+
+
+a = 12
+if a==12:
+    print('hellow python')
+#if else Statement
+
+'''
+    syntax:-
+    if condition:
+        print()
+
+    else:-
+    print()
+'''
+if a<=12:
+    print('age is right ')
+else:
+    print(0)
+# elif statement
+'''
+if condition1:
+    body
+elif condition2:
+    body
+else: #optional
+'''
+'''
+    to take a marks of student as input and then assign a grade to him according to marks grade
+'''
+
+marks = int (input('Enter the total marks in the exam'))
+if marks>=500:
+    print('Grade:- A+')
+elif marks>400:
+    print('Grade:- A')
+elif marks>300:
+    print('grade:-B+')
+elif marks>250:
+    print('grade:-B')
+elif marks>200:
+    print('You are fail in the exam')
+else:
+    marks = input('plz enter the marks in the exam');
 
 
 
-
-
+#looping Statement
 
 
 
